@@ -1,6 +1,0 @@
-FROM golang:1.12.5-alpine3.9
-RUN \
-    apk add --no-cache git \
-    && go get -u github.com/ginuerzh/gost/cmd/gost
-CMD /bin/sh
-
