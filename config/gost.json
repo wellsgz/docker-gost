@@ -1,0 +1,9 @@
+{
+    "Debug": false,
+    "Retries": 0,
+    "ServeNodes": [
+        "socks5://:1080"
+    ],
+    "ChainNodes": [
+    ]
+}

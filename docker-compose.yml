@@ -1,0 +1,13 @@
+---
+version: "2"
+services:
+  gost:
+    image: gost
+    container_name: gost
+    volumes:
+      - /Users/wells/Dropbox/Apps/docker/gost/config:/etc/gost
+    ports: 
+      - 1080:1080
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
